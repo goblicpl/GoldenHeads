@@ -1,0 +1,26 @@
+# Plugin stworzony przez goblicpl #
+#
+
+crafting:
+  disable-god-apple: true
+  head-crafting-enabled: true
+
+# Przykladowy Efekt:
+# - "ABSORPTION,100,2"
+# czyli Absorption III na 100 sekund.
+effects:
+- "SPEED,5,1"
+- "ABSORPTION,60,2"
+- "REGENERATION,5,2"
+- "DAMAGE_RESISTANCE,120,0"
+- "FIRE_RESISTANCE,120,0"
+
+
+head-name: "&6Zlota Glowa &8(PPM)"
+
+eat-countdown: 10
+
+messages:
+  god-apple-crafting-disabled: "&cBlad> &7Nie mozesz stworzyc koxa."
+  head-was-eaten: "&aPomyslnie zjedzono zlota glowe!"
+  head-eat-countdown: "&cBlad> &7Glowe bedziesz mogl zjesc dopiero za {seconds} sekund!"
